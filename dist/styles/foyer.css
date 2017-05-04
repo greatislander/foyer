@@ -198,19 +198,34 @@ body {
 #text {
   position: absolute;
   width: 100%;
-  margin-top: 9vh;
+  margin-top: 8vh;
   font-family: "Inconsolata";
   font-size: 2.5rem;
   color: #fff;
   text-align: center;
 }
 
-#wrapper {
+#doorframe {
   margin-top: auto;
   margin-right: auto;
   margin-left: auto;
   width: 1024px;
   height: 768px;
+}
+
+#open-button {
+  position: absolute;
+  width: 170px;
+  bottom: 4vh;
+  margin-right: 427px;
+  margin-left: 427px;
+  font-family: "Inconsolata";
+  font-size: 1.5rem;
+  border: 2px solid #000;
+  border-radius: 0;
+  color: #000;
+  background: transparent;
+  -webkit-appearance: none;
 }
 
 

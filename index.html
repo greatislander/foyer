@@ -10,17 +10,17 @@
 <body>
   <div id="container">
     <p id="text">A door.</p>
-    <div id="wrapper">
+    <div id="doorframe" class="closed">
       <svg width="1024px" height="768px" viewBox="0 0 1024 768">
-        <!-- <polygon id="door" points="512 180 640 240 640 528 192 768 832 768 704 568 704 200" fill="#fff">
-          <animate id="close" begin="indefinite" fill="freeze" attributeName="points" dur="2000ms" to="512 180 704 200 704 568 192 768 832 768 704 568 704 200" />
-        </polygon> -->
         <polygon id="door" points="512 180 702 200 702 568 192 768 832 768 704 568 704 200" fill="#fff">
-          <animate id="open" begin="indefinite" fill="freeze" attributeName="points" dur="2000ms" to="512 180 640 240 640 528 192 768 832 768 704 568 704 200" />
+          <animate id="ajar" begin="indefinite" fill="freeze" attributeName="points" dur="2000ms" keySplines="0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1" keyTimes="0; 0.22; 0.33; 0.55; 0.66; 0.88; 1" calcMode="spline" to="512 180 640 240 640 528 192 768 832 768 704 568 704 200" />
+          <animate id="open" begin="indefinite" fill="freeze" attributeName="points" dur="2000ms" keySplines="0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1" keyTimes="0; 0.22; 0.33; 0.55; 0.66; 0.88; 1" calcMode="spline" to="382.760563 1 382.760563 52.0528169 382.760563 498.577465 79.8873239 769 945.239437 769 636.957746 498.577465 636.957746 1" />
+          <animate id="close" begin="indefinite" fill="freeze" attributeName="points" dur="2000ms" keySplines="0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1" keyTimes="0; 0.22; 0.33; 0.55; 0.66; 0.88; 1" calcMode="spline" to="512 180 704 200 704 568 192 768 832 768 704 568 704 200" />
         </polygon>
       </svg>
     </div>
+    <button id="open-button">Next</button>
   </div>
-  <script type="text/javascript" async src="dist/scripts/foyer.js?v=3"></script>
+  <script type="text/javascript" async src="dist/scripts/foyer.js?v=4"></script>
 </body>
 </html>
