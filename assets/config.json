@@ -1,0 +1,20 @@
+{
+  "entry": {
+    "foyer": [
+      "./scripts/foyer.js",
+      "./styles/foyer.scss"
+    ]
+  },
+  "publicPath": "/",
+  "devUrl": "http://foyer.test",
+  "proxyUrl": "http://localhost:3000",
+  "cacheBusting": "[name]_[hash:8]",
+  "watch": [
+    "index.html"
+  ],
+  "browsers": [
+    "last 2 versions",
+    "android 4",
+    "opera 12"
+  ]
+}

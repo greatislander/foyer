@@ -1,0 +1,32 @@
+@import 'partials/reset';
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #000;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+}
+
+#text {
+  position: absolute;
+  width: 100%;
+  margin-top: 20vh;
+  font-family: "Inconsolata";
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+#wrapper {
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1024px;
+  height: 768px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A Door</title>
+  <link rel="stylesheet" href="http://foyer.test/dist/styles/foyer.css" />
+</head>
+<body>
+  <div id="container">
+    <p id="text">A door.</p>
+    <div id="wrapper">
+      <svg width="1024px" height="768px" viewBox="0 0 1024 768">
+        <!-- <polygon id="door" points="512 180 640 240 640 528 192 768 832 768 704 568 704 200" fill="#fff">
+          <animate id="close" begin="indefinite" fill="freeze" attributeName="points" dur="2000ms" to="512 180 704 200 704 568 192 768 832 768 704 568 704 200" />
+        </polygon> -->
+        <polygon id="door" points="512 180 702 200 702 568 192 768 832 768 704 568 704 200" fill="#fff">
+          <animate id="open" begin="indefinite" fill="freeze" attributeName="points" dur="2000ms" to="512 180 640 240 640 528 192 768 832 768 704 568 704 200" />
+        </polygon>
+      </svg>
+    </div>
+  </div>
+  <script type="text/javascript" async src="http://foyer.test/dist/scripts/foyer.js"></script>
+</body>
+</html>
